@@ -37,20 +37,20 @@ function displayResults(weather) {
 
   switch (`${weather.weather[0].main}`) {
     case "Clear":
-      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-francesco-ungaro-281260.jpg)';
+      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-francesco-ungaro-281260.webp)';
       break;
     case "Rain":
     case "Drizzle":
-      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-kaique-rocha-125510.jpg)';
+      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-kaique-rocha-125510.webp)';
       break;
     case "Thunderstorm":
-      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-josh-hild-2448749.jpg)';
+      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-lachlan-ross-6510356.webp)';
       break;
     case "Clouds":
-      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-pixabay-414659.jpg)';
+      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-pixabay-414659.webp)';
       break;
     case "Snow":
-      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-josh-hild-2422497.jpg)';
+      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-pixabay-163756.webp)';
       break;   
     default:
       break;
