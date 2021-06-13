@@ -6,9 +6,10 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
-  background-image: url("https://i.pinimg.com/originals/3b/d5/a7/3bd5a78fede2560fc13ed5d55aa42538.jpg");
+  background-image: url('/assets/images/pexels-josh-hild-2448749.jpg');
   background-size: cover;
   background-position: top center;
+  transition: ease 2s;
 }
 
 .app-wrap {
@@ -46,7 +47,6 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  justify-content: space-between;
 }
 
 #city {
@@ -78,8 +78,17 @@ main {
   font-weight: 700;
   margin-bottom: 5px;
   text-shadow: 3px 3px rgba(0,0,0,0.6);
+  margin-bottom: 50px;
+}
+
+#max-min-temp {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-shadow: 3px 3px rgba(0,0,0,0.6);
 }
 
 .info {
-  margin-bottom: 120%;
+  margin-bottom: 50%;
 }
