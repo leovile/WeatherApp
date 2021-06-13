@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
-  background-image: url('/assets/images/pexels-kaique-rocha-125510.jpg');
+  background-image: url('/assets/images/pexels-lachlan-ross-6510356.webp');
   background-size: cover;
   background-position: top center;
   transition: ease 2s;
@@ -18,6 +18,10 @@ body {
   min-height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.4));
   align-items: center;
+}
+
+header {
+  text-align: center;
 }
 
 header input {
@@ -90,5 +94,5 @@ main {
 }
 
 .info {
-  margin-bottom: 50%;
+  margin-bottom: 10%;
 }
