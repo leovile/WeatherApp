@@ -41,13 +41,13 @@ function displayResults(weather) {
       break;
     case "Rain":
     case "Drizzle":
-      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-josh-hild-2448749.jpg)';
+      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-kaique-rocha-125510.jpg)';
       break;
     case "Thunderstorm":
       document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-josh-hild-2448749.jpg)';
       break;
     case "Clouds":
-      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-guilherme-rossi-1755680.jpg)';
+      document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-pixabay-414659.jpg)';
       break;
     case "Snow":
       document.getElementById('background').style.backgroundImage = 'url(assets/images/pexels-josh-hild-2422497.jpg)';
